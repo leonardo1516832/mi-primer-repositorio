@@ -1,0 +1,26 @@
+/* El selector Universal*/
+
+@font-face {
+    font-family: "poppinsLocal";
+    src: url("../fonts/poppins/poppins-Regular.ttf") format("truetipe");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*2. LUEGO aplicamos a todo con el selector universal */
+*{
+ font-family: "poppinsLocal";
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+header{
+    background-color: rgb(196, 96, 96);
+    height: 55px;
+    display: flex;
+    padding: 16px;
+}
